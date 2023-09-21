@@ -1,0 +1,11 @@
+fun main() {
+    val amount = 100.0 // Change this to the desired amount
+    val exchangeRate = 1.2 // Change this to the desired exchange rate
+
+    val convertedAmount = convertCurrency(amount, exchangeRate)
+    println("Converted Amount: $convertedAmount")
+}
+
+fun convertCurrency(amount: Double, exchangeRate: Double): Double {
+    return amount * exchangeRate
+}
